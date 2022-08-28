@@ -7,10 +7,6 @@ WORKDIR /usr/src/app
 
 USER root
 
-RUN apt-get update
-
-RUN apt-get install python3 -y
-
 # Bundle app source
 COPY dist .
 
